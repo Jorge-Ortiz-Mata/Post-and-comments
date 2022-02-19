@@ -3,14 +3,14 @@ class CommentsController < ApplicationController
         @post = Post.find(params[:post_id])
         @comment = @post.comments.create(comment_params)
         #render 'comments/comment'
-        #redirect_to root_path
+        redirect_to root_path
     end
 
     def destroy
         @post = Post.find(params[:post_id])
         @comment = @post.comments.find(params[:id])
         @comment.destroy
-        redirect_to post_path(@post), status: 303
+        redirect_to root_path, status: 303
     end
 
     private
