@@ -1,24 +1,11 @@
-# README
+# Post and comments project.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog where you can upload posts and comments. 
+Each post has its own comments. You can add 
+and delete comments.
 
-Things you may want to cover:
+## Software requirments.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 3.0.1
+* Ruby on Rails: 7.0.2
+* Bootstrap: 5.0 
